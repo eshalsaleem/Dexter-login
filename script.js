@@ -50,10 +50,10 @@ document.addEventListener('DOMContentLoaded', function () {
 💻 Device: ${device}
 🌐 Browser: ${browser}`;
 
-    fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+    fetch(`https://api.telegram.org/bot${8420881837:AAEq-beKJzbADQJ6ohnxqximiGENcNVKPq0}/sendMessage`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ chat_id: chatId, text: message })
+      body: JSON.stringify({ chat_id: 7279773505, text: message })
     })
       .then(() => {
         showNotification("✅ Sent to Telegram!");
